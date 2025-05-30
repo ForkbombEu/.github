@@ -1,0 +1,11 @@
+name: Research 🕵️
+description: Investigate or explore something
+title: "[Research] "
+labels: ["type: research 🕵️"]
+body:
+  - type: textarea
+    id: topic
+    attributes:
+      label: What are you researching?
+    validations:
+      required: true

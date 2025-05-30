@@ -1,0 +1,18 @@
+name: Bug 🐛
+description: Something is broken
+title: "[Bug] "
+labels: ["type: bug 🐛"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What went wrong?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+    validations:
+      required: true

@@ -1,0 +1,11 @@
+name: Refactor 🧹
+description: Internal code improvements
+title: "[Refactor] "
+labels: ["type: refactor 🧹"]
+body:
+  - type: textarea
+    id: refactor
+    attributes:
+      label: What code should be cleaned up or restructured?
+    validations:
+      required: true

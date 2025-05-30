@@ -1,0 +1,11 @@
+name: Enhancement 🛠️
+description: Improvements to existing features
+title: "[Enhancement] "
+labels: ["type: enhancement 🛠️"]
+body:
+  - type: textarea
+    id: enhancement
+    attributes:
+      label: What do you want to improve?
+    validations:
+      required: true

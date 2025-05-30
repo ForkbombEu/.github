@@ -1,0 +1,11 @@
+name: Test ✅
+description: Testing related task
+title: "[Test] "
+labels: ["type: test ✅"]
+body:
+  - type: textarea
+    id: tests
+    attributes:
+      label: What tests should be added or improved?
+    validations:
+      required: true

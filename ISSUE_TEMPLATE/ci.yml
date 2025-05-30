@@ -1,0 +1,11 @@
+name: CI/CD 🔁
+description: Automation and pipelines
+title: "[CI/CD] "
+labels: ["type: ci 🔁"]
+body:
+  - type: textarea
+    id: ci
+    attributes:
+      label: What part of CI/CD is being worked on?
+    validations:
+      required: true

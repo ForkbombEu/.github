@@ -1,0 +1,11 @@
+name: Cleanup 🧽
+description: Technical debt and hygiene
+title: "[Cleanup] "
+labels: ["type: cleanup 🧽"]
+body:
+  - type: textarea
+    id: cleanup
+    attributes:
+      label: What needs to be cleaned up or pruned?
+    validations:
+      required: true

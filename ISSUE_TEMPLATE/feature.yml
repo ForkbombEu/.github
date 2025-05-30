@@ -1,0 +1,16 @@
+name: Feature ✨
+description: Brand new functionality
+title: "[Feature] "
+labels: ["type: feature ✨"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What do you want to build?
+    validations:
+      required: true
+
+  - type: textarea
+    id: value
+    attributes:
+      label: Why is this useful?
