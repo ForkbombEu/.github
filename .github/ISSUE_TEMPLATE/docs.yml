@@ -1,0 +1,11 @@
+name: Documentation 📚
+description: Create or improve project documentation
+title: "[Docs] "
+labels: ["type: docs 📚"]
+body:
+  - type: textarea
+    id: docs
+    attributes:
+      label: What documentation needs to be written or improved?
+    validations:
+      required: true

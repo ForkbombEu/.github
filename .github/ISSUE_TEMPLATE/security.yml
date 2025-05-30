@@ -1,0 +1,11 @@
+name: Security 🔐
+description: Security issue, hardening or audit request
+title: "[Security] "
+labels: ["type: security 🔐"]
+body:
+  - type: textarea
+    id: security
+    attributes:
+      label: Describe the security concern or improvement
+    validations:
+      required: true

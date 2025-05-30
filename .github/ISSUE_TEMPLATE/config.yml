@@ -21,9 +21,9 @@ issue_types:
     labels: ["type: refactor 🧹"]
     template: refactor.yml
 
-  - name: "Test ✅"
+  - name: "Test 🧪"
     description: "Add or improve automated tests"
-    labels: ["type: test ✅"]
+    labels: ["type: test 🧪"]
     template: test.yml
 
   - name: "Research 🕵️"
@@ -40,3 +40,18 @@ issue_types:
     description: "Tech debt, code hygiene, dependency pruning"
     labels: ["type: cleanup 🧽"]
     template: cleanup.yml
+
+  - name: "Documentation 📚"
+    description: "Create or improve project documentation"
+    labels: ["type: docs 📚"]
+    template: docs.yml
+
+  - name: "Security 🔐"
+    description: "Security issue, hardening or audit request"
+    labels: ["type: security 🔐"]
+    template: security.yml
+
+  - name: "UX/UI 💄"
+    description: "User experience or interface improvements"
+    labels: ["type: ux/ui "💄]
+    template: uxui.yml
