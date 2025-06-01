@@ -1,4 +1,6 @@
 title: "[Refactor] "
+name: "Refactor 🧹"
+description: "Code improvements without changing behavior"
 labels: ["type: refactor 🧹"]
 body:
   - type: textarea

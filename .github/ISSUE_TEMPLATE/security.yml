@@ -1,4 +1,6 @@
 title: "[Security] "
+name: "Security 🔐"
+description: "Security issue, hardening or audit request"
 labels: ["area: security 🔐"]
 body:
   - type: textarea

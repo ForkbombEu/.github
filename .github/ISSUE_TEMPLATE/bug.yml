@@ -1,5 +1,7 @@
 title: "[Bug] "
 labels: ["type: bug 🐛"]
+name: "Bug 🐛"
+description: "Something is broken or behaving incorrectly"
 body:
   - type: textarea
     id: what-happened

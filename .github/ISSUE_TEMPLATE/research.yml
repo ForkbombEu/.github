@@ -1,4 +1,6 @@
 title: "[Research] "
+name: "Research 🕵️"
+description: "Exploratory task, design or standards investigation"
 labels: ["type: research 🕵️"]
 body:
   - type: textarea

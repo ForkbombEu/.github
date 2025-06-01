@@ -1,4 +1,6 @@
 title: "[Docs] "
+name: "Documentation 📚"
+description: "Create or improve project documentation"
 labels: ["area: docs 📚"]
 body:
   - type: textarea

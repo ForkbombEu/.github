@@ -1,4 +1,6 @@
 title: "[Feature] "
+name: "Feature ✨"
+description: "Brand new capability or product functionality"
 labels: ["type: feature ✨"]
 body:
   - type: textarea

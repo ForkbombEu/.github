@@ -1,4 +1,6 @@
 title: "[UX/UI] "
+name: "UX/UI 💄"
+description: "User experience or interface improvements"
 labels: ["area: UX/UI 💄"]
 body:
   - type: textarea

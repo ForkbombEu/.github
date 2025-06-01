@@ -1,4 +1,6 @@
 title: "[Enhancement] "
+name: "Enhancement 🛠️"
+description: "Improvements to existing features"
 labels: ["type: enhancement 🛠️"]
 body:
   - type: textarea
