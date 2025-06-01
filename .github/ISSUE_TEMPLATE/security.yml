@@ -1,11 +1,70 @@
-title: "[Security] "
-name: "Security 🔐"
-description: "Security issue, hardening or audit request"
+name: Security 🔐
+description: Report a vulnerability, request hardening, or suggest a security improvement
 labels: ["area: security 🔐"]
+title: "[Security] "
 body:
   - type: textarea
-    id: security
+    id: summary
     attributes:
-      label: Describe the security concern or improvement
+      label: Security concern or improvement
+      description: Clearly describe the issue or enhancement
+      placeholder: e.g., Unauthenticated endpoint exposes issuer metadata
     validations:
       required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: Estimate the potential impact
+      options:
+        - 🛑 Critical (remote exploit, data breach, unauthorized access)
+        - ⚠️ High (privilege escalation, key leak, auth bypass)
+        - 🛡️ Medium (rate limiting, info disclosure, replay risk)
+        - 🧱 Low (best practice violation, non-exploitable bug)
+    validations:
+      required: true
+
+  - type: textarea
+    id: affected_components
+    attributes:
+      label: Affected components
+      description: Which part of the system is affected?
+      placeholder: e.g., JWT validation, `/credential_offer` endpoint, key rotation
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce (if applicable)
+      description: Help us reproduce the issue if it's observable
+      placeholder: Optional but appreciated for vulnerability reports
+    validations:
+      required: false
+
+  - type: input
+    id: disclosure
+    attributes:
+      label: Have you reported this privately?
+      description: Link to email, HackerOne, or other disclosure channel (if any)
+      placeholder: e.g., security@forkbomb.eu
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed_fix
+    attributes:
+      label: Suggested fix or mitigation
+      description: What would you recommend we do to fix or harden the system?
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context or references
+      description: Anything else to help assess the risk or scope
+    validations:
+      required: false
+

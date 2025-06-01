@@ -1,17 +1,29 @@
 blank_issues_enabled: false
 contact_links: []
 issue_types:
-  - name: "Bug 🐛"
-    description: "Something is broken or behaving incorrectly"
-    template: bug.yml
+  - name: "Integration 🌐"
+    description: "Connect or maintain a 3rd-party service or external API"
+    template: integration.yml
 
   - name: "Feature ✨"
     description: "Brand new capability or product functionality"
     template: feature.yml
 
-  - name: "Enhancement 🛠️"
-    description: "Improvements to existing features"
-    template: enhancement.yml
+  - name: "UX/UI 💄"
+    description: "User experience or interface improvements"
+    template: uxui.yml
+
+  - name: "Bug 🐛"
+    description: "Something is broken or behaving incorrectly"
+    template: bug.yml
+
+  - name: "Documentation 📚"
+    description: "Create or improve project documentation"
+    template: docs.yml
+
+  - name: "Security 🔐"
+    description: "Security issue, hardening or audit request"
+    template: security.yml
 
   - name: "Refactor 🧹"
     description: "Code improvements without changing behavior"
@@ -32,15 +44,3 @@ issue_types:
   - name: "Cleanup 🧽"
     description: "Tech debt, code hygiene, dependency pruning"
     template: cleanup.yml
-
-  - name: "Documentation 📚"
-    description: "Create or improve project documentation"
-    template: docs.yml
-
-  - name: "Security 🔐"
-    description: "Security issue, hardening or audit request"
-    template: security.yml
-
-  - name: "UX/UI 💄"
-    description: "User experience or interface improvements"
-    template: uxui.yml

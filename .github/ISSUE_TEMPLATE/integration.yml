@@ -1,0 +1,71 @@
+name: Integration 🌐
+description: Connect or maintain a 3rd-party service or external API
+title: "[Integration] "
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the integration
+      description: What does this integration do and how does it relate to our platform?
+      placeholder: e.g., This integration allows Credimi to validate credential offers from Wallet XYZ using their OpenID4VCI endpoint.
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Name of the integration
+      placeholder: e.g., Wallet XYZ
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: integration_type
+    attributes:
+      label: Type of integration
+      description: Select one or more relevant categories
+      options:
+        - Wallet
+        - Relying party (RP)
+        - Authorization server (AS)
+        - Credential issuer (CI)
+        - Developer tool
+        - Verifier
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: documentation
+    attributes:
+      label: Documentation link
+      placeholder: https://docs.wallet.xyz/integration-guide
+    validations:
+      required: true
+
+  - type: input
+    id: site
+    attributes:
+      label: Organization / Site URL
+      placeholder: https://wallet.xyz
+    validations:
+      required: true
+
+  - type: input
+    id: api_endpoint
+    attributes:
+      label: API / Staging / Test Endpoint
+      description: Link to the integration's base URL or staging environment
+      placeholder: https://staging.wallet.xyz/.well-known/openid-configuration
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Who to ask (referent)
+      description: Optional contact person for coordination
+      placeholder: e.g., Alice from Wallet XYZ
+    validations:
+      required: false
+

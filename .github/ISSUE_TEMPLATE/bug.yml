@@ -1,18 +1,72 @@
-title: "[Bug] "
+name: Bug 🐛
+description: Report a defect or unexpected behavior
 labels: ["type: bug 🐛"]
-name: "Bug 🐛"
-description: "Something is broken or behaving incorrectly"
+title: "[Bug] "
 body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What went wrong?
+      label: What happened?
+      description: Clearly describe the observed problem
+      placeholder: e.g., Credential offer returns 500 when accessing staging wallet.
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: Steps to Reproduce
+      label: Steps to reproduce
+      description: Write a numbered list to reproduce the bug
+      placeholder: |
+        1. Go to staging.credimi.io
+        2. Select Wallet XYZ
+        3. Click on "Get credential"
+        4. Observe HTTP 500 error
     validations:
       required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: e.g., I expected a 200 OK with a credential_offer object.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How serious is this bug?
+      options:
+        - 🚨 Critical (blocks development or conformance)
+        - ⚠️ Major (important but a workaround exists)
+        - 🐞 Minor (visual or low-impact)
+        - ❄️ Trivial (typos, low priority)
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: e.g., staging.credimi.io / Chrome / Linux
+    validations:
+      required: true
+
+  - type: input
+    id: logs
+    attributes:
+      label: Relevant logs or error IDs
+      description: Paste any console/server logs or error references
+      placeholder: e.g., request ID: abc-123 or log snippet
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context or screenshots
+      description: Anything else that helps us understand or reproduce the issue
+    validations:
+      required: false
