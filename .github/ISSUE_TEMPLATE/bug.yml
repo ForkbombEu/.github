@@ -1,5 +1,3 @@
-name: Bug 🐛
-description: Something is broken
 title: "[Bug] "
 labels: ["type: bug 🐛"]
 body:

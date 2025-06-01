@@ -1,5 +1,3 @@
-name: Test ✅
-description: Testing related task
 title: "[Test] "
 labels: ["type: test ✅"]
 body:

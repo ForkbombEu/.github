@@ -1,7 +1,5 @@
-name: CI/CD 🔁
-description: Automation and pipelines
 title: "[CI/CD] "
-labels: ["type: ci 🔁"]
+labels: ["area: CI/CD ⚙️"]
 body:
   - type: textarea
     id: ci

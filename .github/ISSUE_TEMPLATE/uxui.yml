@@ -1,7 +1,5 @@
-name: UX/UI 🎨
-description: User experience or interface improvements
 title: "[UX/UI] "
-labels: ["type: ux/ui 🎨"]
+labels: ["area: UX/UI 💄"]
 body:
   - type: textarea
     id: uxui

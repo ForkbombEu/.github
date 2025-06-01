@@ -3,55 +3,44 @@ contact_links: []
 issue_types:
   - name: "Bug 🐛"
     description: "Something is broken or behaving incorrectly"
-    labels: ["type: bug 🐛"]
     template: bug.yml
 
   - name: "Feature ✨"
     description: "Brand new capability or product functionality"
-    labels: ["type: feature ✨"]
     template: feature.yml
 
   - name: "Enhancement 🛠️"
     description: "Improvements to existing features"
-    labels: ["type: enhancement 🛠️"]
     template: enhancement.yml
 
   - name: "Refactor 🧹"
     description: "Code improvements without changing behavior"
-    labels: ["type: refactor 🧹"]
     template: refactor.yml
 
   - name: "Test 🧪"
     description: "Add or improve automated tests"
-    labels: ["type: test 🧪"]
     template: test.yml
 
   - name: "Research 🕵️"
     description: "Exploratory task, design or standards investigation"
-    labels: ["type: research 🕵️"]
     template: research.yml
 
   - name: "CI/CD 🔁"
     description: "Automation, pipelines, GitHub Actions"
-    labels: ["type: ci 🔁"]
     template: ci.yml
 
   - name: "Cleanup 🧽"
     description: "Tech debt, code hygiene, dependency pruning"
-    labels: ["type: cleanup 🧽"]
     template: cleanup.yml
 
   - name: "Documentation 📚"
     description: "Create or improve project documentation"
-    labels: ["type: docs 📚"]
     template: docs.yml
 
   - name: "Security 🔐"
     description: "Security issue, hardening or audit request"
-    labels: ["type: security 🔐"]
     template: security.yml
 
   - name: "UX/UI 💄"
     description: "User experience or interface improvements"
-    labels: ["type: ux/ui "💄]
     template: uxui.yml

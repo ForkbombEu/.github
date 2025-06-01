@@ -1,7 +1,5 @@
-name: Security 🔐
-description: Security issue, hardening or audit request
 title: "[Security] "
-labels: ["type: security 🔐"]
+labels: ["area: security 🔐"]
 body:
   - type: textarea
     id: security
