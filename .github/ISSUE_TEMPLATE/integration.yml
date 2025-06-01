@@ -25,13 +25,13 @@ body:
       label: Type of integration
       description: Select one or more relevant categories
       options:
-        - Wallet
-        - Relying party (RP)
-        - Authorization server (AS)
-        - Credential issuer (CI)
-        - Developer tool
-        - Verifier
-        - Other
+        - label: Wallet
+        - label: Relying party (RP)
+        - label: Authorization server (AS)
+        - label: Credential issuer (CI)
+        - label: Developer tool
+        - label: Verifier
+        - label: Other
     validations:
       required: true
 
@@ -40,16 +40,12 @@ body:
     attributes:
       label: Documentation link
       placeholder: https://docs.wallet.xyz/integration-guide
-    validations:
-      required: true
 
   - type: input
     id: site
     attributes:
       label: Organization / Site URL
       placeholder: https://wallet.xyz
-    validations:
-      required: true
 
   - type: input
     id: api_endpoint
@@ -57,8 +53,6 @@ body:
       label: API / Staging / Test Endpoint
       description: Link to the integration's base URL or staging environment
       placeholder: https://staging.wallet.xyz/.well-known/openid-configuration
-    validations:
-      required: true
 
   - type: input
     id: contact
@@ -66,6 +60,4 @@ body:
       label: Who to ask (referent)
       description: Optional contact person for coordination
       placeholder: e.g., Alice from Wallet XYZ
-    validations:
-      required: false
 
