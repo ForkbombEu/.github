@@ -18,10 +18,10 @@ body:
       label: Severity
       description: Estimate the potential impact
       options:
-        - label: 🛑 Critical (remote exploit, data breach, unauthorized access)
-        - label: ⚠️ High (privilege escalation, key leak, auth bypass)
-        - label: 🛡️ Medium (rate limiting, info disclosure, replay risk)
-        - label: 🧱 Low (best practice violation, non-exploitable bug)
+        - 🛑 Critical (remote exploit, data breach, unauthorized access)
+        - ⚠️ High (privilege escalation, key leak, auth bypass)
+        - 🛡️ Medium (rate limiting, info disclosure, replay risk)
+        - 🧱 Low (best practice violation, non-exploitable bug)
     validations:
       required: true
 
