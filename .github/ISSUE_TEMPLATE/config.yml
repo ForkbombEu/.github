@@ -33,14 +33,6 @@ issue_types:
     description: "Add or improve automated tests"
     template: test.yml
 
-  - name: "Research 🕵️"
-    description: "Exploratory task, design or standards investigation"
-    template: research.yml
-
   - name: "CI/CD 🔁"
     description: "Automation, pipelines, GitHub Actions"
     template: ci.yml
-
-  - name: "Cleanup 🧽"
-    description: "Tech debt, code hygiene, dependency pruning"
-    template: cleanup.yml
