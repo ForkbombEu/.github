@@ -36,11 +36,15 @@ body:
     attributes:
       label: Severity
       description: How serious is this bug?
+      multiple: false
       options:
-        - label: 🚨 Critical (blocks development or conformance)
-        - label: ⚠️ Major (important but a workaround exists)
-        - label: 🐞 Minor (visual or low-impact)
-        - label: ❄️ Trivial (typos, low priority)
+        - 🚨 Critical (blocks development or conformance)
+        - ⚠️ Major (important but a workaround exists)
+        - 🐞 Minor (visual or low-impact)
+        - ❄️ Trivial (typos, low priority)
+      default: 🚨 Critical
+    validations:
+      required: true
 
   - type: input
     id: environment
