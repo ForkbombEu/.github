@@ -1,7 +1,7 @@
 name: Integration 🌐
 description: Connect or maintain a 3rd-party service or external API
 title: "[Integration] "
-labels: ["type: integration 🌐"]
+labels: ["area: integrations 🌐"]
 body:
   - type: textarea
     id: description
