@@ -18,10 +18,10 @@ body:
       label: Severity
       description: Estimate the potential impact
       options:
-        - 🛑 Critical (remote exploit, data breach, unauthorized access)
-        - ⚠️ High (privilege escalation, key leak, auth bypass)
-        - 🛡️ Medium (rate limiting, info disclosure, replay risk)
-        - 🧱 Low (best practice violation, non-exploitable bug)
+        - label: 🛑 Critical (remote exploit, data breach, unauthorized access)
+        - label: ⚠️ High (privilege escalation, key leak, auth bypass)
+        - label: 🛡️ Medium (rate limiting, info disclosure, replay risk)
+        - label: 🧱 Low (best practice violation, non-exploitable bug)
     validations:
       required: true
 
@@ -31,8 +31,6 @@ body:
       label: Affected components
       description: Which part of the system is affected?
       placeholder: e.g., JWT validation, `/credential_offer` endpoint, key rotation
-    validations:
-      required: true
 
   - type: textarea
     id: steps
@@ -40,8 +38,6 @@ body:
       label: Steps to reproduce (if applicable)
       description: Help us reproduce the issue if it's observable
       placeholder: Optional but appreciated for vulnerability reports
-    validations:
-      required: false
 
   - type: input
     id: disclosure
@@ -49,22 +45,16 @@ body:
       label: Have you reported this privately?
       description: Link to email, HackerOne, or other disclosure channel (if any)
       placeholder: e.g., security@forkbomb.eu
-    validations:
-      required: false
 
   - type: textarea
     id: proposed_fix
     attributes:
       label: Suggested fix or mitigation
       description: What would you recommend we do to fix or harden the system?
-    validations:
-      required: false
 
   - type: textarea
     id: notes
     attributes:
       label: Additional context or references
       description: Anything else to help assess the risk or scope
-    validations:
-      required: false
 

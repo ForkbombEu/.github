@@ -30,8 +30,6 @@ body:
     attributes:
       label: What did you expect to happen?
       placeholder: e.g., I expected a 200 OK with a credential_offer object.
-    validations:
-      required: true
 
   - type: dropdown
     id: severity
@@ -39,20 +37,16 @@ body:
       label: Severity
       description: How serious is this bug?
       options:
-        - 🚨 Critical (blocks development or conformance)
-        - ⚠️ Major (important but a workaround exists)
-        - 🐞 Minor (visual or low-impact)
-        - ❄️ Trivial (typos, low priority)
-    validations:
-      required: true
+        - label: 🚨 Critical (blocks development or conformance)
+        - label: ⚠️ Major (important but a workaround exists)
+        - label: 🐞 Minor (visual or low-impact)
+        - label: ❄️ Trivial (typos, low priority)
 
   - type: input
     id: environment
     attributes:
       label: Environment
       placeholder: e.g., staging.credimi.io / Chrome / Linux
-    validations:
-      required: true
 
   - type: input
     id: logs
@@ -60,13 +54,9 @@ body:
       label: Relevant logs or error IDs
       description: Paste any console/server logs or error references
       placeholder: e.g., request ID: abc-123 or log snippet
-    validations:
-      required: false
 
   - type: textarea
     id: notes
     attributes:
       label: Additional context or screenshots
       description: Anything else that helps us understand or reproduce the issue
-    validations:
-      required: false
