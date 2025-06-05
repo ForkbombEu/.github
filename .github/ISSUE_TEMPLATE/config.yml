@@ -32,3 +32,7 @@ issue_types:
   - name: "Test 🧪"
     description: "Add or improve automated tests"
     template: test.yml
+    
+  - name: "CI/CD 👷‍♂️"
+    description: "Deployments, pipelines, GitHub Actions"
+    template: ci.yml
