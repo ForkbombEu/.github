@@ -1,0 +1,16 @@
+title: "[CI/CD] "
+name: "CI/CD 👷"
+description: "Work related to "
+labels: ["area: CI/CD 👷‍♂️"]
+body:
+  - type: textarea
+    id: ci
+    attributes:
+      label: What part of CI/CD is being worked on?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: e.g., staging, credimi.io, github ci
