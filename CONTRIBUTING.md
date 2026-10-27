@@ -1,6 +1,6 @@
 # Forkbomb - Contributor License Agreement
 
-This Contributor Agreement ("CA") applies to the contribution specified in section "Terms" below that you make to any product or project managed by us (the "project"), and sets out the intellectual property rights you grant to us in the contributed materials. The term "us" shall mean Forkbomb BV. The term "you" shall mean the person or entity identified below. By submitting a contribution, you agree to be bound by these terms. Read this agreement carefully before contributing. These terms and conditions constitute a binding legal agreement.
+This Contributor Agreement ("CA") applies to the contribution specified in section "Terms" below that you make to any product or project managed by us (the "project"), and sets out the intellectual property rights you grant to us in the contributed materials. The term "us" shall mean Forkbomb BV. The term "you" shall mean the person or entity identified below. Whoever contributes accepts these terms and conditions, effective the instant they decide to send a correction or contribution. Read this agreement carefully before contributing. These terms and conditions constitute a binding legal agreement.
 
 ## Terms
 
