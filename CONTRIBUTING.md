@@ -1,6 +1,6 @@
 # Forkbomb - Contributor License Agreement
 
-This Contributor Agreement ("CA") applies to the contribution specified in section "Terms" below that you make to any product or project managed by us (the "project"), and sets out the intellectual property rights you grant to us in the contributed materials. The term "us" shall mean Forkbomb BV. The term "you" shall mean the person or entity identified below. If you agree to be bound by these terms, fill in the information requested and sign the Forkbomb CA. Read this agreement carefully before signing. These terms and conditions constitute a binding legal agreement.
+This Contributor Agreement ("CA") applies to the contribution specified in section "Terms" below that you make to any product or project managed by us (the "project"), and sets out the intellectual property rights you grant to us in the contributed materials. The term "us" shall mean Forkbomb BV. The term "you" shall mean the person or entity identified below. By submitting a contribution, you agree to be bound by these terms. Read this agreement carefully before contributing. These terms and conditions constitute a binding legal agreement.
 
 ## Terms
 
@@ -23,13 +23,13 @@ With respect to any patents you own, or that you can license without payment to 
 
 ## Free availability
 
-Except as set out above, you keep all right, title, and interest in your contribution. The rights that you grant to us under these terms are effective on the date you first submitted a contribution to us, even if your submission took place before the date you sign these terms. Any contribution we make available under any license will also be made available under a suitable FSF (Free Software Foundation) or OSI-approved license.
+Except as set out above, you keep all right, title, and interest in your contribution. The rights that you grant to us under these terms are effective on the date you first submitted a contribution to us, even if your submission took place before the date you agreed to these terms. Any contribution we make available under any license will also be made available under a suitable FSF (Free Software Foundation) or OSI-approved license.
 
 ## Covenant
 
 You covenant, represent, warrant and agree that:
   - each contribution that you submit is and shall be an original work of authorship and you can legally grant the rights set out in this CA;
-  - to the best of your knowledge, each contribution will not violate any third party's copyrights, trademarks, patents, or other intellectual property rights; and You agree to notify us if you become aware of any circumstance which would make any of the foregoing representations inaccurate in any respect. We may publicly disclose your participation in the project, including the fact that you have signed the CA.
+  - to the best of your knowledge, each contribution will not violate any third party's copyrights, trademarks, patents, or other intellectual property rights; and You agree to notify us if you become aware of any circumstance which would make any of the foregoing representations inaccurate in any respect. We may publicly disclose your participation in the project, including the fact that you have contributed.
 
 ## Jurisdiction
 
